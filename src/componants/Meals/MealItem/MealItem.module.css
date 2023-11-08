@@ -1,0 +1,28 @@
+.meal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.693);
+}
+.mainDiv{
+    text-align: start;
+    padding-left: 2rem;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.description{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+    color: rgb(42, 42, 42);
+}
+.price{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(120, 41, 6);
+}

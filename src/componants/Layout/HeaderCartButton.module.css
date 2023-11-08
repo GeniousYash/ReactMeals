@@ -1,0 +1,41 @@
+.button{
+    cursor: pointer;
+    font: inherit;
+    width: 20rem;
+    border: none;
+    background-color: #af3302;
+    padding: 0.75rem 3rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-right: 15rem;
+}
+.button:hover,
+.button:active{
+    background-color: #2c0d00;
+}
+.icon{
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 1.5rem;
+    margin-top: -10px;
+}
+.p{
+    width: 7rem;
+    font-size: 25px;
+}
+
+.badge{
+    background-color: #571e07;
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-size: bold;
+}
+.button:hover .badge,
+.button:active .badge{
+    background-color: #c83c05;
+}
